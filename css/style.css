@@ -1,0 +1,88 @@
+.ahmed{
+    background-image: url(../Images/slider-02.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+.icon{
+    border: 1px solid rgba(255, 255, 255,0.3);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-fixed{
+    font-size: 100px;
+    color: black;
+    position: relative;
+}
+
+
+.h2-fixed::after{
+    content:"Testmonial";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+.my-imge{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -23px;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+
+.rgba{
+   background: rgba(0, 0, 0, .5) ;
+   transform: translateY(-100%);
+   -webkit-transform: translateY(-100%);
+   -moz-transform: translateY(-100%);
+   -ms-transform: translateY(-100%);
+   -o-transform: translateY(-100%);
+   transition: 0.5S all;
+   -webkit-transition: 0.5S all;
+   -moz-transition: 0.5S all;
+   -ms-transition: 0.5S all;
+   -o-transition: 0.5S all;
+}
+figure:hover  figcaption{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
